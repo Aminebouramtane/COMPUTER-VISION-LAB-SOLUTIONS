@@ -1,0 +1,241 @@
+image_index,méthode,seuil_brut,seuil_appliqué,cible,erreur_absolue,pixels_différents_cible_pct,IoU_objet,exactitude_pixels,commentaire
+24,Cible,92.0,92.0,92.0,0.0,0.0,1.0,1.0,Masque identique à celui de la cible
+24,Otsu,73.0,73.0,92.0,19.0,0.0,1.0,1.0,Masque identique à celui de la cible
+24,Régression linéaire,100.43857207736617,100.43857207736617,92.0,8.438572077366175,0.0,1.0,1.0,Masque identique à celui de la cible
+24,Random Forest,90.34,90.34,92.0,1.6599999999999966,0.0,1.0,1.0,Masque identique à celui de la cible
+6,Cible,94.5,94.5,94.5,0.0,0.0,1.0,1.0,Masque identique à celui de la cible
+6,Otsu,60.0,60.0,94.5,34.5,0.0,1.0,1.0,Masque identique à celui de la cible
+6,Régression linéaire,95.81823335977383,95.81823335977383,94.5,1.3182333597738278,0.0,1.0,1.0,Masque identique à celui de la cible
+6,Random Forest,114.385,114.385,94.5,19.885000000000005,0.0,1.0,1.0,Masque identique à celui de la cible
+93,Cible,161.5,161.5,161.5,0.0,0.0,1.0,1.0,Masque identique à celui de la cible
+93,Otsu,151.0,151.0,161.5,10.5,0.0,1.0,1.0,Masque identique à celui de la cible
+93,Régression linéaire,158.3525724911621,158.3525724911621,161.5,3.147427508837893,0.0,1.0,1.0,Masque identique à celui de la cible
+93,Random Forest,172.72,172.72,161.5,11.219999999999999,0.006103515625,0.9996455157745481,0.99993896484375,0.01 % des pixels changent par rapport au masque cible
+109,Cible,115.0,115.0,115.0,0.0,0.0,1.0,1.0,Masque identique à celui de la cible
+109,Otsu,53.0,53.0,115.0,62.0,0.0,1.0,1.0,Masque identique à celui de la cible
+109,Régression linéaire,99.88952573668388,99.88952573668388,115.0,15.11047426331612,0.0,1.0,1.0,Masque identique à celui de la cible
+109,Random Forest,114.035,114.035,115.0,0.9650000000000034,0.0,1.0,1.0,Masque identique à celui de la cible
+104,Cible,117.0,117.0,117.0,0.0,0.0,1.0,1.0,Masque identique à celui de la cible
+104,Otsu,91.0,91.0,117.0,26.0,0.0,1.0,1.0,Masque identique à celui de la cible
+104,Régression linéaire,129.7430221483807,129.7430221483807,117.0,12.743022148380703,0.0,1.0,1.0,Masque identique à celui de la cible
+104,Random Forest,120.92,120.92,117.0,3.9200000000000017,0.0,1.0,1.0,Masque identique à celui de la cible
+172,Cible,137.5,137.5,137.5,0.0,0.0,1.0,1.0,Masque identique à celui de la cible
+172,Otsu,86.0,86.0,137.5,51.5,0.0,1.0,1.0,Masque identique à celui de la cible
+172,Régression linéaire,108.55225699737314,108.55225699737314,137.5,28.947743002626865,0.0,1.0,1.0,Masque identique à celui de la cible
+172,Random Forest,124.865,124.865,137.5,12.635000000000005,0.0,1.0,1.0,Masque identique à celui de la cible
+233,Cible,141.0,141.0,141.0,0.0,0.0,1.0,1.0,Masque identique à celui de la cible
+233,Otsu,94.0,94.0,141.0,47.0,0.0,1.0,1.0,Masque identique à celui de la cible
+233,Régression linéaire,145.50632215227836,145.50632215227836,141.0,4.506322152278358,0.0,1.0,1.0,Masque identique à celui de la cible
+233,Random Forest,144.225,144.225,141.0,3.2249999999999943,0.0,1.0,1.0,Masque identique à celui de la cible
+86,Cible,137.5,137.5,137.5,0.0,0.0,1.0,1.0,Masque identique à celui de la cible
+86,Otsu,83.0,83.0,137.5,54.5,0.0,1.0,1.0,Masque identique à celui de la cible
+86,Régression linéaire,141.37955888441516,141.37955888441516,137.5,3.879558884415161,0.0,1.0,1.0,Masque identique à celui de la cible
+86,Random Forest,144.365,144.365,137.5,6.865000000000009,0.0,1.0,1.0,Masque identique à celui de la cible
+9,Cible,47.0,47.0,47.0,0.0,0.0,1.0,1.0,Masque identique à celui de la cible
+9,Otsu,39.0,39.0,47.0,8.0,0.0,1.0,1.0,Masque identique à celui de la cible
+9,Régression linéaire,70.03418692726171,70.03418692726171,47.0,23.034186927261715,15.496826171875,0.25520680551481373,0.84503173828125,15.50 % des pixels changent par rapport au masque cible
+9,Random Forest,59.6,59.6,47.0,12.600000000000001,0.0244140625,0.9988266353769434,0.999755859375,0.02 % des pixels changent par rapport au masque cible
+143,Cible,152.5,152.5,152.5,0.0,0.0,1.0,1.0,Masque identique à celui de la cible
+143,Otsu,79.0,79.0,152.5,73.5,0.0,1.0,1.0,Masque identique à celui de la cible
+143,Régression linéaire,119.70825506074073,119.70825506074073,152.5,32.791744939259274,0.0,1.0,1.0,Masque identique à celui de la cible
+143,Random Forest,147.86,147.86,152.5,4.639999999999986,0.0,1.0,1.0,Masque identique à celui de la cible
+45,Cible,58.0,58.0,58.0,0.0,0.0,1.0,1.0,Masque identique à celui de la cible
+45,Otsu,42.0,42.0,58.0,16.0,0.0,1.0,1.0,Masque identique à celui de la cible
+45,Régression linéaire,82.53072802874063,82.53072802874063,58.0,24.530728028740626,4.5654296875,0.839622641509434,0.954345703125,4.57 % des pixels changent par rapport au masque cible
+45,Random Forest,62.635,62.635,58.0,4.634999999999998,0.0,1.0,1.0,Masque identique à celui de la cible
+206,Cible,130.0,130.0,130.0,0.0,0.0,1.0,1.0,Masque identique à celui de la cible
+206,Otsu,56.0,56.0,130.0,74.0,0.0,1.0,1.0,Masque identique à celui de la cible
+206,Régression linéaire,143.5904042981192,143.5904042981192,130.0,13.59040429811921,0.0,1.0,1.0,Masque identique à celui de la cible
+206,Random Forest,127.44,127.44,130.0,2.5600000000000023,0.0,1.0,1.0,Masque identique à celui de la cible
+114,Cible,179.5,179.5,179.5,0.0,0.0,1.0,1.0,Masque identique à celui de la cible
+114,Otsu,142.0,142.0,179.5,37.5,0.0,1.0,1.0,Masque identique à celui de la cible
+114,Régression linéaire,172.0031256090553,172.0031256090553,179.5,7.496874390944697,0.0,1.0,1.0,Masque identique à celui de la cible
+114,Random Forest,169.07,169.07,179.5,10.430000000000007,0.0,1.0,1.0,Masque identique à celui de la cible
+168,Cible,122.5,122.5,122.5,0.0,0.0,1.0,1.0,Masque identique à celui de la cible
+168,Otsu,102.0,102.0,122.5,20.5,0.0,1.0,1.0,Masque identique à celui de la cible
+168,Régression linéaire,137.4895261183591,137.4895261183591,122.5,14.989526118359095,0.0,1.0,1.0,Masque identique à celui de la cible
+168,Random Forest,130.18,130.18,122.5,7.680000000000007,0.0,1.0,1.0,Masque identique à celui de la cible
+113,Cible,141.0,141.0,141.0,0.0,0.0,1.0,1.0,Masque identique à celui de la cible
+113,Otsu,131.0,131.0,141.0,10.0,0.0,1.0,1.0,Masque identique à celui de la cible
+113,Régression linéaire,142.44867828814654,142.44867828814654,141.0,1.4486782881465388,0.0,1.0,1.0,Masque identique à celui de la cible
+113,Random Forest,150.15,150.15,141.0,9.150000000000006,0.0,1.0,1.0,Masque identique à celui de la cible
+230,Cible,161.0,161.0,161.0,0.0,0.0,1.0,1.0,Masque identique à celui de la cible
+230,Otsu,102.0,102.0,161.0,59.0,0.0,1.0,1.0,Masque identique à celui de la cible
+230,Régression linéaire,153.15364843310743,153.15364843310743,161.0,7.846351566892565,0.0,1.0,1.0,Masque identique à celui de la cible
+230,Random Forest,158.43,158.43,161.0,2.569999999999993,0.0,1.0,1.0,Masque identique à celui de la cible
+185,Cible,167.0,167.0,167.0,0.0,0.0,1.0,1.0,Masque identique à celui de la cible
+185,Otsu,144.0,144.0,167.0,23.0,0.0,1.0,1.0,Masque identique à celui de la cible
+185,Régression linéaire,160.10705848800887,160.10705848800887,167.0,6.8929415119911255,0.0,1.0,1.0,Masque identique à celui de la cible
+185,Random Forest,168.615,168.615,167.0,1.615000000000009,0.0,1.0,1.0,Masque identique à celui de la cible
+15,Cible,89.0,89.0,89.0,0.0,0.0,1.0,1.0,Masque identique à celui de la cible
+15,Otsu,38.0,38.0,89.0,51.0,0.0,1.0,1.0,Masque identique à celui de la cible
+15,Régression linéaire,85.49518990405518,85.49518990405518,89.0,3.504810095944819,0.0,1.0,1.0,Masque identique à celui de la cible
+15,Random Forest,106.1,106.1,89.0,17.099999999999994,0.0,1.0,1.0,Masque identique à celui de la cible
+152,Cible,109.0,109.0,109.0,0.0,0.0,1.0,1.0,Masque identique à celui de la cible
+152,Otsu,83.0,83.0,109.0,26.0,0.0,1.0,1.0,Masque identique à celui de la cible
+152,Régression linéaire,130.93436118931766,130.93436118931766,109.0,21.934361189317656,0.0,1.0,1.0,Masque identique à celui de la cible
+152,Random Forest,120.96,120.96,109.0,11.959999999999994,0.0,1.0,1.0,Masque identique à celui de la cible
+125,Cible,121.0,121.0,121.0,0.0,0.0,1.0,1.0,Masque identique à celui de la cible
+125,Otsu,41.0,41.0,121.0,80.0,0.0,1.0,1.0,Masque identique à celui de la cible
+125,Régression linéaire,96.9464581135165,96.9464581135165,121.0,24.0535418864835,0.0,1.0,1.0,Masque identique à celui de la cible
+125,Random Forest,113.345,113.345,121.0,7.655000000000001,0.0,1.0,1.0,Masque identique à celui de la cible
+127,Cible,128.5,128.5,128.5,0.0,0.0,1.0,1.0,Masque identique à celui de la cible
+127,Otsu,63.0,63.0,128.5,65.5,0.0,1.0,1.0,Masque identique à celui de la cible
+127,Régression linéaire,130.16257305499914,130.16257305499914,128.5,1.662573054999143,0.0,1.0,1.0,Masque identique à celui de la cible
+127,Random Forest,130.58,130.58,128.5,2.0800000000000125,0.0,1.0,1.0,Masque identique à celui de la cible
+19,Cible,165.0,165.0,165.0,0.0,0.0,1.0,1.0,Masque identique à celui de la cible
+19,Otsu,96.0,96.0,165.0,69.0,0.0,1.0,1.0,Masque identique à celui de la cible
+19,Régression linéaire,119.2756571832551,119.2756571832551,165.0,45.724342816744894,0.0,1.0,1.0,Masque identique à celui de la cible
+19,Random Forest,125.68,125.68,165.0,39.31999999999999,0.0,1.0,1.0,Masque identique à celui de la cible
+235,Cible,167.5,167.5,167.5,0.0,0.0,1.0,1.0,Masque identique à celui de la cible
+235,Otsu,134.0,134.0,167.5,33.5,0.0,1.0,1.0,Masque identique à celui de la cible
+235,Régression linéaire,169.4774688092536,169.4774688092536,167.5,1.977468809253594,0.0,1.0,1.0,Masque identique à celui de la cible
+235,Random Forest,173.665,173.665,167.5,6.164999999999992,0.0,1.0,1.0,Masque identique à celui de la cible
+30,Cible,79.5,79.5,79.5,0.0,0.0,1.0,1.0,Masque identique à celui de la cible
+30,Otsu,41.0,41.0,79.5,38.5,0.0,1.0,1.0,Masque identique à celui de la cible
+30,Régression linéaire,85.80151837608912,85.80151837608912,79.5,6.3015183760891205,0.0,1.0,1.0,Masque identique à celui de la cible
+30,Random Forest,108.795,108.795,79.5,29.295,0.0,1.0,1.0,Masque identique à celui de la cible
+176,Cible,43.5,43.5,43.5,0.0,0.0,1.0,1.0,Masque identique à celui de la cible
+176,Otsu,25.0,25.0,43.5,18.5,0.0,1.0,1.0,Masque identique à celui de la cible
+176,Régression linéaire,71.20109739849289,71.20109739849289,43.5,27.70109739849289,7.720947265625,0.7405660377358491,0.92279052734375,7.72 % des pixels changent par rapport au masque cible
+176,Random Forest,60.97,60.97,43.5,17.47,0.0,1.0,1.0,Masque identique à celui de la cible
+150,Cible,49.0,49.0,49.0,0.0,0.0,1.0,1.0,Masque identique à celui de la cible
+150,Otsu,34.0,34.0,49.0,15.0,0.0,1.0,1.0,Masque identique à celui de la cible
+150,Régression linéaire,63.745127845287776,63.745127845287776,49.0,14.745127845287776,0.0,1.0,1.0,Masque identique à celui de la cible
+150,Random Forest,51.71,51.71,49.0,2.710000000000001,0.0,1.0,1.0,Masque identique à celui de la cible
+10,Cible,176.0,176.0,176.0,0.0,0.0,1.0,1.0,Masque identique à celui de la cible
+10,Otsu,151.0,151.0,176.0,25.0,0.0,1.0,1.0,Masque identique à celui de la cible
+10,Régression linéaire,155.26305299369952,155.26305299369952,176.0,20.736947006300483,0.0,1.0,1.0,Masque identique à celui de la cible
+10,Random Forest,172.155,172.155,176.0,3.844999999999999,0.0,1.0,1.0,Masque identique à celui de la cible
+201,Cible,131.5,131.5,131.5,0.0,0.0,1.0,1.0,Masque identique à celui de la cible
+201,Otsu,64.0,64.0,131.5,67.5,0.0,1.0,1.0,Masque identique à celui de la cible
+201,Régression linéaire,92.48045295664596,92.48045295664596,131.5,39.01954704335404,0.0,1.0,1.0,Masque identique à celui de la cible
+201,Random Forest,109.16,109.16,131.5,22.340000000000003,0.0,1.0,1.0,Masque identique à celui de la cible
+237,Cible,116.0,116.0,116.0,0.0,0.0,1.0,1.0,Masque identique à celui de la cible
+237,Otsu,95.0,95.0,116.0,21.0,0.0,1.0,1.0,Masque identique à celui de la cible
+237,Régression linéaire,120.49872164634152,120.49872164634152,116.0,4.498721646341522,0.0,1.0,1.0,Masque identique à celui de la cible
+237,Random Forest,121.875,121.875,116.0,5.875,0.0,1.0,1.0,Masque identique à celui de la cible
+153,Cible,131.5,131.5,131.5,0.0,0.0,1.0,1.0,Masque identique à celui de la cible
+153,Otsu,48.0,48.0,131.5,83.5,0.0,1.0,1.0,Masque identique à celui de la cible
+153,Régression linéaire,125.72946879796847,125.72946879796847,131.5,5.770531202031535,0.0,1.0,1.0,Masque identique à celui de la cible
+153,Random Forest,126.055,126.055,131.5,5.444999999999993,0.0,1.0,1.0,Masque identique à celui de la cible
+96,Cible,169.5,169.5,169.5,0.0,0.0,1.0,1.0,Masque identique à celui de la cible
+96,Otsu,112.0,112.0,169.5,57.5,0.0,1.0,1.0,Masque identique à celui de la cible
+96,Régression linéaire,147.03830297178985,147.03830297178985,169.5,22.461697028210153,0.0,1.0,1.0,Masque identique à celui de la cible
+96,Random Forest,152.03,152.03,169.5,17.47,0.0,1.0,1.0,Masque identique à celui de la cible
+228,Cible,123.0,123.0,123.0,0.0,0.0,1.0,1.0,Masque identique à celui de la cible
+228,Otsu,71.0,71.0,123.0,52.0,0.0,1.0,1.0,Masque identique à celui de la cible
+228,Régression linéaire,104.01070824370116,104.01070824370116,123.0,18.98929175629884,0.0,1.0,1.0,Masque identique à celui de la cible
+228,Random Forest,118.045,118.045,123.0,4.954999999999998,0.0,1.0,1.0,Masque identique à celui de la cible
+25,Cible,164.0,164.0,164.0,0.0,0.0,1.0,1.0,Masque identique à celui de la cible
+25,Otsu,150.0,150.0,164.0,14.0,0.0,1.0,1.0,Masque identique à celui de la cible
+25,Régression linéaire,154.45199290973994,154.45199290973994,164.0,9.548007090260057,0.0,1.0,1.0,Masque identique à celui de la cible
+25,Random Forest,170.835,170.835,164.0,6.835000000000008,0.0,1.0,1.0,Masque identique à celui de la cible
+182,Cible,30.0,30.0,30.0,0.0,0.0,1.0,1.0,Masque identique à celui de la cible
+182,Otsu,22.0,22.0,30.0,8.0,0.0,1.0,1.0,Masque identique à celui de la cible
+182,Régression linéaire,52.08064163951795,52.08064163951795,30.0,22.08064163951795,9.86328125,0.10222222222222223,0.9013671875,9.86 % des pixels changent par rapport au masque cible
+182,Random Forest,48.855,48.855,30.0,18.854999999999997,5.474853515625,0.5016666666666667,0.94525146484375,5.47 % des pixels changent par rapport au masque cible
+18,Cible,165.5,165.5,165.5,0.0,0.0,1.0,1.0,Masque identique à celui de la cible
+18,Otsu,141.0,141.0,165.5,24.5,0.0,1.0,1.0,Masque identique à celui de la cible
+18,Régression linéaire,155.8229038885812,155.8229038885812,165.5,9.677096111418791,0.0,1.0,1.0,Masque identique à celui de la cible
+18,Random Forest,157.225,157.225,165.5,8.275000000000006,0.0,1.0,1.0,Masque identique à celui de la cible
+69,Cible,159.0,159.0,159.0,0.0,0.0,1.0,1.0,Masque identique à celui de la cible
+69,Otsu,84.0,84.0,159.0,75.0,0.0,1.0,1.0,Masque identique à celui de la cible
+69,Régression linéaire,123.35221217110744,123.35221217110744,159.0,35.64778782889256,0.0,1.0,1.0,Masque identique à celui de la cible
+69,Random Forest,147.6,147.6,159.0,11.400000000000006,0.0,1.0,1.0,Masque identique à celui de la cible
+192,Cible,173.5,173.5,173.5,0.0,0.0,1.0,1.0,Masque identique à celui de la cible
+192,Otsu,126.0,126.0,173.5,47.5,0.0,1.0,1.0,Masque identique à celui de la cible
+192,Régression linéaire,158.41561345566714,158.41561345566714,173.5,15.084386544332858,0.0,1.0,1.0,Masque identique à celui de la cible
+192,Random Forest,165.13,165.13,173.5,8.370000000000005,0.0,1.0,1.0,Masque identique à celui de la cible
+55,Cible,86.5,86.5,86.5,0.0,0.0,1.0,1.0,Masque identique à celui de la cible
+55,Otsu,78.0,78.0,86.5,8.5,0.0,1.0,1.0,Masque identique à celui de la cible
+55,Régression linéaire,112.85681770093623,112.85681770093623,86.5,26.356817700936233,45.635986328125,0.010978835978835979,0.54364013671875,45.64 % des pixels changent par rapport au masque cible
+55,Random Forest,98.48,98.48,86.5,11.980000000000004,0.4150390625,0.991005291005291,0.995849609375,0.42 % des pixels changent par rapport au masque cible
+79,Cible,108.5,108.5,108.5,0.0,0.0,1.0,1.0,Masque identique à celui de la cible
+79,Otsu,54.0,54.0,108.5,54.5,0.0,1.0,1.0,Masque identique à celui de la cible
+79,Régression linéaire,101.8790494579667,101.8790494579667,108.5,6.620950542033299,0.0,1.0,1.0,Masque identique à celui de la cible
+79,Random Forest,117.99,117.99,108.5,9.489999999999995,0.0,1.0,1.0,Masque identique à celui de la cible
+175,Cible,136.0,136.0,136.0,0.0,0.0,1.0,1.0,Masque identique à celui de la cible
+175,Otsu,61.0,61.0,136.0,75.0,0.0,1.0,1.0,Masque identique à celui de la cible
+175,Régression linéaire,116.03449752626875,116.03449752626875,136.0,19.96550247373125,0.0,1.0,1.0,Masque identique à celui de la cible
+175,Random Forest,125.255,125.255,136.0,10.745000000000005,0.0,1.0,1.0,Masque identique à celui de la cible
+227,Cible,189.0,189.0,189.0,0.0,0.0,1.0,1.0,Masque identique à celui de la cible
+227,Otsu,151.0,151.0,189.0,38.0,0.0,1.0,1.0,Masque identique à celui de la cible
+227,Régression linéaire,174.11410978659876,174.11410978659876,189.0,14.88589021340124,0.0,1.0,1.0,Masque identique à celui de la cible
+227,Random Forest,178.995,178.995,189.0,10.004999999999995,0.0,1.0,1.0,Masque identique à celui de la cible
+112,Cible,105.0,105.0,105.0,0.0,0.0,1.0,1.0,Masque identique à celui de la cible
+112,Otsu,62.0,62.0,105.0,43.0,0.0,1.0,1.0,Masque identique à celui de la cible
+112,Régression linéaire,124.74206621222147,124.74206621222147,105.0,19.742066212221474,0.0,1.0,1.0,Masque identique à celui de la cible
+112,Random Forest,112.365,112.365,105.0,7.364999999999995,0.0,1.0,1.0,Masque identique à celui de la cible
+221,Cible,94.0,94.0,94.0,0.0,0.0,1.0,1.0,Masque identique à celui de la cible
+221,Otsu,84.0,84.0,94.0,10.0,0.0,1.0,1.0,Masque identique à celui de la cible
+221,Régression linéaire,109.83453659392342,109.83453659392342,94.0,15.834536593923417,1.007080078125,0.9544827586206897,0.98992919921875,1.01 % des pixels changent par rapport au masque cible
+221,Random Forest,95.91,95.91,94.0,1.9099999999999966,0.0,1.0,1.0,Masque identique à celui de la cible
+16,Cible,72.0,72.0,72.0,0.0,0.0,1.0,1.0,Masque identique à celui de la cible
+16,Otsu,62.0,62.0,72.0,10.0,0.0,1.0,1.0,Masque identique à celui de la cible
+16,Régression linéaire,92.87888342863982,92.87888342863982,72.0,20.878883428639824,9.0576171875,0.6406779661016949,0.909423828125,9.06 % des pixels changent par rapport au masque cible
+16,Random Forest,76.58,76.58,72.0,4.579999999999998,0.0,1.0,1.0,Masque identique à celui de la cible
+156,Cible,109.5,109.5,109.5,0.0,0.0,1.0,1.0,Masque identique à celui de la cible
+156,Otsu,50.0,50.0,109.5,59.5,0.0,1.0,1.0,Masque identique à celui de la cible
+156,Régression linéaire,91.13398060756795,91.13398060756795,109.5,18.36601939243205,0.0,1.0,1.0,Masque identique à celui de la cible
+156,Random Forest,109.495,109.495,109.5,0.0049999999999954525,0.0,1.0,1.0,Masque identique à celui de la cible
+66,Cible,146.5,146.5,146.5,0.0,0.0,1.0,1.0,Masque identique à celui de la cible
+66,Otsu,108.0,108.0,146.5,38.5,0.0,1.0,1.0,Masque identique à celui de la cible
+66,Régression linéaire,129.6885281245185,129.6885281245185,146.5,16.811471875481487,0.0,1.0,1.0,Masque identique à celui de la cible
+66,Random Forest,148.675,148.675,146.5,2.1750000000000114,0.0,1.0,1.0,Masque identique à celui de la cible
+165,Cible,84.0,84.0,84.0,0.0,0.0,1.0,1.0,Masque identique à celui de la cible
+165,Otsu,23.0,23.0,84.0,61.0,0.0,1.0,1.0,Masque identique à celui de la cible
+165,Régression linéaire,92.24787123474306,92.24787123474306,84.0,8.247871234743059,0.0,1.0,1.0,Masque identique à celui de la cible
+165,Random Forest,99.85,99.85,84.0,15.849999999999994,0.0,1.0,1.0,Masque identique à celui de la cible
+38,Cible,128.0,128.0,128.0,0.0,0.0,1.0,1.0,Masque identique à celui de la cible
+38,Otsu,121.0,121.0,128.0,7.0,0.0,1.0,1.0,Masque identique à celui de la cible
+38,Régression linéaire,134.1494670149939,134.1494670149939,128.0,6.149467014993888,0.006103515625,0.9995285242809995,0.99993896484375,0.01 % des pixels changent par rapport au masque cible
+38,Random Forest,135.09,135.09,128.0,7.090000000000003,0.006103515625,0.9995285242809995,0.99993896484375,0.01 % des pixels changent par rapport au masque cible
+139,Cible,159.0,159.0,159.0,0.0,0.0,1.0,1.0,Masque identique à celui de la cible
+139,Otsu,139.0,139.0,159.0,20.0,0.0,1.0,1.0,Masque identique à celui de la cible
+139,Régression linéaire,148.81815653164614,148.81815653164614,159.0,10.181843468353861,0.0,1.0,1.0,Masque identique à celui de la cible
+139,Random Forest,145.72,145.72,159.0,13.280000000000001,0.0,1.0,1.0,Masque identique à celui de la cible
+60,Cible,113.5,113.5,113.5,0.0,0.0,1.0,1.0,Masque identique à celui de la cible
+60,Otsu,98.0,98.0,113.5,15.5,0.0,1.0,1.0,Masque identique à celui de la cible
+60,Régression linéaire,120.92429299252056,120.92429299252056,113.5,7.424292992520563,0.0,1.0,1.0,Masque identique à celui de la cible
+60,Random Forest,120.945,120.945,113.5,7.444999999999993,0.0,1.0,1.0,Masque identique à celui de la cible
+204,Cible,128.5,128.5,128.5,0.0,0.0,1.0,1.0,Masque identique à celui de la cible
+204,Otsu,82.0,82.0,128.5,46.5,0.0,1.0,1.0,Masque identique à celui de la cible
+204,Régression linéaire,111.77110827673233,111.77110827673233,128.5,16.728891723267665,0.0,1.0,1.0,Masque identique à celui de la cible
+204,Random Forest,128.0,128.0,128.5,0.5,0.0,1.0,1.0,Masque identique à celui de la cible
+186,Cible,154.0,154.0,154.0,0.0,0.0,1.0,1.0,Masque identique à celui de la cible
+186,Otsu,117.0,117.0,154.0,37.0,0.0,1.0,1.0,Masque identique à celui de la cible
+186,Régression linéaire,152.69461944644712,152.69461944644712,154.0,1.3053805535528795,0.0,1.0,1.0,Masque identique à celui de la cible
+186,Random Forest,160.32,160.32,154.0,6.319999999999993,0.0,1.0,1.0,Masque identique à celui de la cible
+207,Cible,152.5,152.5,152.5,0.0,0.0,1.0,1.0,Masque identique à celui de la cible
+207,Otsu,83.0,83.0,152.5,69.5,0.0,1.0,1.0,Masque identique à celui de la cible
+207,Régression linéaire,169.43193625555693,169.43193625555693,152.5,16.931936255556934,0.0,1.0,1.0,Masque identique à celui de la cible
+207,Random Forest,149.54,149.54,152.5,2.960000000000008,0.0,1.0,1.0,Masque identique à celui de la cible
+193,Cible,120.0,120.0,120.0,0.0,0.0,1.0,1.0,Masque identique à celui de la cible
+193,Otsu,39.0,39.0,120.0,81.0,0.0,1.0,1.0,Masque identique à celui de la cible
+193,Régression linéaire,111.7552142989698,111.7552142989698,120.0,8.244785701030196,0.0,1.0,1.0,Masque identique à celui de la cible
+193,Random Forest,115.9,115.9,120.0,4.099999999999994,0.0,1.0,1.0,Masque identique à celui de la cible
+224,Cible,119.0,119.0,119.0,0.0,0.0,1.0,1.0,Masque identique à celui de la cible
+224,Otsu,71.0,71.0,119.0,48.0,0.0,1.0,1.0,Masque identique à celui de la cible
+224,Régression linéaire,126.73342077896174,126.73342077896174,119.0,7.733420778961744,0.0,1.0,1.0,Masque identique à celui de la cible
+224,Random Forest,123.365,123.365,119.0,4.364999999999995,0.0,1.0,1.0,Masque identique à celui de la cible
+209,Cible,139.0,139.0,139.0,0.0,0.0,1.0,1.0,Masque identique à celui de la cible
+209,Otsu,72.0,72.0,139.0,67.0,0.0,1.0,1.0,Masque identique à celui de la cible
+209,Régression linéaire,106.64030283272676,106.64030283272676,139.0,32.35969716727324,0.0,1.0,1.0,Masque identique à celui de la cible
+209,Random Forest,113.815,113.815,139.0,25.185000000000002,0.0,1.0,1.0,Masque identique à celui de la cible
+115,Cible,112.0,112.0,112.0,0.0,0.0,1.0,1.0,Masque identique à celui de la cible
+115,Otsu,64.0,64.0,112.0,48.0,0.0,1.0,1.0,Masque identique à celui de la cible
+115,Régression linéaire,122.28340429877814,122.28340429877814,112.0,10.283404298778137,0.0,1.0,1.0,Masque identique à celui de la cible
+115,Random Forest,117.505,117.505,112.0,5.5049999999999955,0.0,1.0,1.0,Masque identique à celui de la cible
+219,Cible,154.0,154.0,154.0,0.0,0.0,1.0,1.0,Masque identique à celui de la cible
+219,Otsu,120.0,120.0,154.0,34.0,0.0,1.0,1.0,Masque identique à celui de la cible
+219,Régression linéaire,135.59519368885591,135.59519368885591,154.0,18.404806311144085,0.0,1.0,1.0,Masque identique à celui de la cible
+219,Random Forest,149.485,149.485,154.0,4.514999999999986,0.0,1.0,1.0,Masque identique à celui de la cible
+73,Cible,179.0,179.0,179.0,0.0,0.0,1.0,1.0,Masque identique à celui de la cible
+73,Otsu,127.0,127.0,179.0,52.0,0.0,1.0,1.0,Masque identique à celui de la cible
+73,Régression linéaire,160.6324293988335,160.6324293988335,179.0,18.367570601166506,0.0,1.0,1.0,Masque identique à celui de la cible
+73,Random Forest,166.5,166.5,179.0,12.5,0.0,1.0,1.0,Masque identique à celui de la cible
+136,Cible,166.5,166.5,166.5,0.0,0.0,1.0,1.0,Masque identique à celui de la cible
+136,Otsu,143.0,143.0,166.5,23.5,0.0,1.0,1.0,Masque identique à celui de la cible
+136,Régression linéaire,145.6466688449363,145.6466688449363,166.5,20.8533311550637,0.0,1.0,1.0,Masque identique à celui de la cible
+136,Random Forest,150.055,150.055,166.5,16.444999999999993,0.0,1.0,1.0,Masque identique à celui de la cible

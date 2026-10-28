@@ -1,0 +1,100 @@
+Seuil Optimal par Machine Learning 🤖
+Description
+Ce notebook démontre une approche novatrice du seuillage d'image : au lieu de calculer le seuil avec une formule analytique classique (comme Otsu), on apprend à prédire le seuil optimal à partir des caractéristiques de l'histogramme de l'image, à l'aide de deux modèles de machine learning :
+
+Régression Linéaire (avec normalisation StandardScaler)
+Random Forest Regressor
+Problème résolu
+En traitement d'images, le seuillage consiste à convertir une image en niveaux de gris en une image binaire (noir/blanc) en choisissant un seuil T : tout pixel dont l'intensité est > T devient blanc (objet), sinon noir (fond).
+
+Le défi : avec des images aux conditions variées (luminosité, contraste, bruit, etc.), un seuil fixe échoue, et même Otsu peut se tromper. Ce notebook montre comment le ML peut apprendre à choisir un meilleur seuil.
+
+Pipeline ML — Vue d'ensemble
+
+Image synthétique + Masque idéal
+         │
+         ▼
+  Calcul du seuil optimal T*
+  (via courbe IoU sur T = 0..255)
+         │
+         ▼
+  Extraction de 11 features
+  (statistiques de l'histogramme)
+         │
+         ▼
+  Entraînement ML (80% train / 20% test)
+  ┌──────────────┬──────────────────────┐
+  │ Régression   │  Random Forest       │
+  │ Linéaire     │  (200 arbres)        │
+  └──────────────┴──────────────────────┘
+         │
+         ▼
+  Évaluation : MAE, R², IoU moyen
+Étapes détaillées
+Étape	Contenu
+1	Générer 2 000 images synthétiques avec leur masque idéal (vérité terrain)
+2	Calculer pour chaque image le seuil optimal T* (celui qui maximise le IoU avec le masque)
+3	Extraire 11 caractéristiques de l'histogramme (moyenne, écart-type, percentiles, seuil d'Otsu, asymétrie)
+4	Entraîner Régression Linéaire et Random Forest : features → T*
+5	Comparer les performances avec seuil fixe (127) et Otsu
+Métrique clé : IoU (Intersection over Union)
+IoU = Intersection / Union
+
+IoU = 1 → segmentation parfaite
+IoU = 0 → aucune correspondance
+Résultats
+Prédiction du seuil T* (sur le jeu de test)
+Méthode	MAE (erreur moyenne sur T)	R²
+Otsu	7.815	0.922
+Régression linéaire	2.865	0.992
+Random Forest	3.125	0.991
+MAE : plus petit = mieux. R² : plus proche de 1 = mieux.
+
+Qualité de segmentation réelle (IoU moyen sur le jeu de test)
+Méthode	IoU moyen
+Seuil fixe 127	0.279
+Otsu	0.741
+Régression linéaire	0.848
+Random Forest	0.843
+Seuil optimal (max)	0.872
+La Régression Linéaire et le Random Forest surpassent largement Otsu et le seuil fixe, atteignant ~97% de la performance théorique maximale.
+
+Caractéristiques utilisées (features)
+Feature	Description
+moyenne	Intensité moyenne des pixels
+écart-type	Dispersion des intensités
+min	Intensité minimale
+max	Intensité maximale
+p5	5e percentile
+p25	25e percentile (Q1)
+p50	Médiane
+p75	75e percentile (Q3)
+p95	95e percentile
+otsu	Seuil d'Otsu (calculé automatiquement)
+asymétrie	Skewness (asymétrie de la distribution)
+Le seuil d'Otsu est lui-même utilisé comme feature — le ML l'utilise comme point de départ et le corrige.
+
+Génération des données synthétiques
+Chaque image générée contient :
+
+Un fond avec luminosité aléatoire (entre 10 et 160)
+Des objets (cercles ou rectangles) plus clairs, de taille variable
+Un gradient d'éclairage léger (50% des images)
+Un flou gaussien (sigma entre 0.5 et 2)
+Du bruit gaussien (sigma entre 2 et 14)
+Cette variabilité simule des conditions réelles difficiles où un seuil fixe serait inadapté.
+
+Dépendances
+bash
+
+pip install numpy opencv-python pandas matplotlib scikit-learn
+Bibliothèque	Usage
+numpy	Calculs numériques, génération aléatoire
+cv2 (OpenCV)	Traitement d'image, seuil d'Otsu, flou
+pandas	Affichage des tableaux de résultats
+matplotlib	Visualisations et graphiques
+scikit-learn	Modèles ML, métriques, split train/test
+Conclusion
+Cette approche démontre qu'un simple modèle de régression peut apprendre à choisir le meilleur seuil de binarisation à partir des statistiques globales d'une image, et ce mieux qu'Otsu dans des conditions difficiles.
+
+C'est un exemple parfait d'apprentissage supervisé appliqué à la vision par ordinateur.
