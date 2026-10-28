@@ -1,0 +1,27 @@
+# Large files excluded from version control
+seance 3/archive.zip
+seance 6/TP_contours_complet.zip
+seance 6/hed_pretrained_bsds.caffemodel
+
+# Common Python artifacts
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Virtual environments
+venv/
+env/
+.env/
+
+# OS files
+.DS_Store
+Thumbs.db
